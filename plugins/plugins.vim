@@ -12,6 +12,11 @@ call plug#begin()
 
 	" File explorer
 	Plug 'nvim-tree/nvim-tree.lua'
+	Plug 'nvim-tree/nvim-web-devicons'
+	
+	" Finder of files
+	Plug 'nvim-lua/plenary.nvim'
+	Plug 'nvim-telescope/telescope.nvim'
 
 	" Status bar airline github
 	Plug 'vim-airline/vim-airline'
