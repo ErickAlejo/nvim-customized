@@ -11,4 +11,4 @@ Customizando mi editor de texto NVIM para volverlo un IDLE de Python:
 
 <br>
 
-[Cover](./cover.png)
+![Cover](./cover.png)
