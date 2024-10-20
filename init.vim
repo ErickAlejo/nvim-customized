@@ -2,6 +2,8 @@ so ~/.config/nvim/keymaps.vim
 so ~/.config/nvim/plugins/plugins.vim
 so ~/.config/nvim/themes/everforest.nvim
 so ~/.config/nvim/file-explorer.lua
+so ~/.config/nvim/autocompletion.vim
+
 
 " Files
 "set backup " Generate backup of file
