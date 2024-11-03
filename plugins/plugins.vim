@@ -7,8 +7,7 @@ call plug#begin()
 	Plug 'tpope/vim-sensible'
 
 	" Theme
-	"Plug 'rebelot/kanagawa.nvim'
-	Plug 'sainnhe/everforest'
+	Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 
 	" File explorer
 	Plug 'nvim-tree/nvim-tree.lua'
@@ -29,9 +28,6 @@ call plug#begin()
 	Plug 'hrsh7th/cmp-path'
 	Plug 'hrsh7th/cmp-cmdline'
 	Plug 'hrsh7th/nvim-cmp'
-	" For vsnip users.
-	Plug 'hrsh7th/cmp-vsnip'
-	Plug 'hrsh7th/vim-vsnip'
 	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 call plug#end()
